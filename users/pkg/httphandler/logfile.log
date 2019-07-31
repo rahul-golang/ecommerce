@@ -1,0 +1,1 @@
+time="2019-07-31T16:51:46+05:30" level=info msg=sucess file=/home/amol/go/src/github.com/rahul-golang/ecommerce/users/pkg/httphandler/handler.go function=github.com/rahul-golang/ecommerce/users/pkg/httphandler.UserHttpHandlers.GetAllUser line=146 requestid=

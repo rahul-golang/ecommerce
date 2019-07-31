@@ -1,0 +1,2 @@
+time="2019-07-31T11:50:09+05:30" level=info msg="in all users service mothod " file=/home/amol/go/src/github.com/rahul-golang/ecommerce/users/pkg/service/service.go function="github.com/rahul-golang/ecommerce/users/pkg/service.(*basicUsersService).GetAllUser" line=38 requestid=
+time="2019-07-31T11:50:09+05:30" level=info msg="in all users service mothod " file=/home/amol/go/src/github.com/rahul-golang/ecommerce/users/pkg/service/service.go function="github.com/rahul-golang/ecommerce/users/pkg/service.(*basicUsersService).GetAllUser" line=38 requestid=

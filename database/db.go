@@ -33,7 +33,6 @@ func (mySQLClientConn MySQLClientConn) NewClientConnection() *gorm.DB {
 	// 	fmt.Println("Error in Create client connection", err)
 	// 	panic("Error In Create Client Connection")
 	// }
-
 	// return client
 
 	return conn()

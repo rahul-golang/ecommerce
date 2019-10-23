@@ -45,6 +45,7 @@ func (userRepository *UserRepository) Create(ctx context.Context, user models.Us
 		return nil, d.Error
 	}
 
+	defer dbConn.Close()
 	return &user, nil
 }
 

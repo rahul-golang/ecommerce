@@ -21,7 +21,6 @@ func NewMokeBasicUsersService() service.UsersService {
 }
 
 func (mokeBasicUsersService MokeBasicUsersService) CreateUser(ctx context.Context, createReq models.CreateUserReq) (createResp *models.CreateUserResp, err error) {
-	fmt.Println("Wo")
 	return
 }
 func (mokeBasicUsersService MokeBasicUsersService) GetAllUser(ctx context.Context) (allRecordResp []*models.User, err error) {

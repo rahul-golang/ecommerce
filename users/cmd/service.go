@@ -2,6 +2,7 @@ package cmd
 
 import (
 	"flag"
+	"fmt"
 
 	"net/http"
 
@@ -34,7 +35,8 @@ func Run() {
 	restHandler := httphandler.NewUserRestHandler(usersServiceInterface)
 	router.Use(loggingMiddleware)
 	endpoints.NewUserEndpoints(router, restHandler)
-	http.ListenAndServe(":8081", router)
+	fmt.Println("Server running on port : 8081")
+	fmt.Println(http.ListenAndServe(":8081", router))
 }
 
 func loggingMiddleware(next http.Handler) http.Handler {
